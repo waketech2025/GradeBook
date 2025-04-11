@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gradebook</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background-color: #c11c1c;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: rgba(35, 145, 77, 0.607);
+    }
+    th, td {
+      border: 1px solid #560a23;
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #240f45;
+      color: white;
+    }
+    caption {
+      caption-side: top;
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <table id="gradebook">
+    <caption>Student Gradebook</caption>
+    <thead>
+      <tr>
+        <th>Student Name</th>
+        <th>Assignment 1</th>
+        <th>Assignment 2</th>
+        <th>Assignment 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Student data will be populated here -->
+    </tbody>
+  </table>
+
+  <script src="gradebook.js"></script>
+</body>
+</html>
